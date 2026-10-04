@@ -37,8 +37,6 @@
 
 `Under development / 课程项目`
 
-目前完成工程初始化骨架、协议定义、离线模拟与配置样例。接下来计划联调 **Arduino → MQTT → Home Assistant → Hermes Agent**；真实传感器与 Agent 链路还在开发中。
-
 `Python` · `Smart sensing` · `IoT`
 
 #### Small tools, real problems
@@ -76,7 +74,13 @@
 
 ## 04 / Beyond the terminal
 
-终端之外，我也会玩 **Minecraft** 和 **Call of Duty**，以及去健身。
+终端之外，我也会玩游戏，以及去健身。
+
+<p>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/8/8f/Grass_block_stylized.svg" alt="Minecraft icon" width="32" height="32" align="absmiddle"> Minecraft
+  &nbsp; · &nbsp;
+  <img src="assets/call-of-duty.svg" alt="Call of Duty icon" width="72" align="absmiddle"> Call of Duty
+</p>
 
 <p>
   <a href="https://luvch1nabest.me">来我的个人网站坐坐 ↗</a>
@@ -92,5 +96,5 @@
 
 <details>
   <summary>Visual credits</summary>
-  <p>Header artwork created for this profile. Technology icons: <a href="https://devicon.dev/">Devicon</a>, served through jsDelivr at v2.17.0. Shell, CachyOS and social icons: <a href="https://simpleicons.org/">Simple Icons</a>. Brand marks belong to their respective owners.</p>
+  <p>Header artwork created for this profile. Technology icons: <a href="https://devicon.dev/">Devicon</a>, served through jsDelivr at v2.17.0. Shell, CachyOS and social icons: <a href="https://simpleicons.org/">Simple Icons</a>. Game artwork: <a href="https://commons.wikimedia.org/wiki/File:Grass_block_stylized.svg">Minecraft-like grass block</a> and <a href="https://commons.wikimedia.org/wiki/File:Call_of_Duty_logo.svg">Call of Duty wordmark</a> via Wikimedia Commons; the wordmark is recolored for both themes. Brand marks belong to their respective owners.</p>
 </details>
