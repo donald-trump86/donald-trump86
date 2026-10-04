@@ -72,7 +72,16 @@
 
 工具会变，想把原理弄明白的好奇心不变。
 
-## 04 / Beyond the terminal
+## 04 / Apple, by choice
+
+一个果粉，偏爱克制的设计与流畅的体验。
+
+- <img src="assets/mac-screen.svg" alt="Mac icon" width="24" height="24" align="absmiddle"> **主力电脑** · MacBook Air（M5）
+- <img src="https://cdn.simpleicons.org/apple/888888" alt="Apple logo" width="24" height="24" align="absmiddle"> **日常平板** · iPad Pro（2024）
+
+> Think different. Build with intention.
+
+## 05 / Beyond the terminal
 
 终端之外，我也会玩游戏，以及去健身。
 
@@ -96,5 +105,5 @@
 
 <details>
   <summary>Visual credits</summary>
-  <p>Header artwork created for this profile. Technology icons: <a href="https://devicon.dev/">Devicon</a>, served through jsDelivr at v2.17.0. Shell, CachyOS and social icons: <a href="https://simpleicons.org/">Simple Icons</a>. Game icons: user-selected SVG files from <a href="https://www.svgrepo.com/">SVG Repo</a>, used unchanged. Brand marks belong to their respective owners.</p>
+  <p>Header artwork created for this profile. Technology icons: <a href="https://devicon.dev/">Devicon</a>, served through jsDelivr at v2.17.0. Shell, CachyOS and social icons: <a href="https://simpleicons.org/">Simple Icons</a>. Game icons: user-selected SVG files from <a href="https://www.svgrepo.com/">SVG Repo</a>, used unchanged. Mac symbol: user-selected SVG Repo artwork, recolored for both themes. Brand marks belong to their respective owners.</p>
 </details>
