@@ -1,36 +1,64 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
   <title id="title">Jason Dai — System &amp; AI Explorer</title>
-  <desc id="desc">An original terminal-inspired field note: sensing signals connect to a system and a small network of learning nodes.</desc>
+  <desc id="desc">A midnight terminal with cyan and violet orbital signals. From sensing to systems to intelligence.</desc>
   <defs>
-    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="12" cy="12" r="1" fill="#263543"/></pattern>
-    <linearGradient id="wash" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0d1117"/><stop offset="1" stop-color="#12313b"/></linearGradient>
-    <linearGradient id="signal"><stop stop-color="#86efac"/><stop offset="1" stop-color="#67e8f9"/></linearGradient>
+    <linearGradient id="panel" x2="1" y2="1"><stop stop-color="#10141e"/><stop offset="1" stop-color="#080b12"/></linearGradient>
+    <radialGradient id="aura"><stop stop-color="#8570ed" stop-opacity=".25"/><stop offset=".6" stop-color="#53dccc" stop-opacity=".08"/><stop offset="1" stop-color="#53dccc" stop-opacity="0"/></radialGradient>
+    <linearGradient id="signal" x2="1" y2="1"><stop stop-color="#78e8dc"/><stop offset=".5" stop-color="#a5a1ff"/><stop offset="1" stop-color="#d695ff"/></linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#273144" stroke-opacity=".3"/></pattern>
+    <clipPath id="frame"><rect x="1" y="1" width="1198" height="398" rx="24"/></clipPath>
+    <clipPath id="typed"><rect class="typing" x="82" y="256" width="404" height="32"/></clipPath>
+    <style>
+      .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+      .orbit{transform-origin:947px 191px;animation:orbit 32s linear infinite}
+      .pulse{animation:pulse 4s ease-in-out infinite}
+      .typing{animation:typing 9s steps(32,end) infinite}
+      .cursor{animation:blink 1.2s steps(2,end) infinite,caret 9s steps(32,end) infinite}
+      @keyframes orbit{to{transform:rotate(360deg)}}
+      @keyframes pulse{50%{opacity:.35}}
+      @keyframes typing{0%,8%{width:0}48%,92%,100%{width:404px}}
+      @keyframes caret{0%,8%{transform:translateX(-404px)}48%,92%,100%{transform:translateX(0)}}
+      @keyframes blink{50%{opacity:0}}
+      @media(prefers-reduced-motion:reduce){.orbit,.pulse,.typing,.cursor{animation:none}.cursor{opacity:0}}
+    </style>
   </defs>
-  <rect x="1" y="1" width="1198" height="358" rx="24" fill="#0d1117" stroke="#263543" stroke-width="2"/>
-  <path d="M730 2H1176Q1198 2 1198 24V336Q1198 358 1176 358H730Z" fill="url(#wash)"/>
-  <rect x="744" y="25" width="432" height="310" fill="url(#dots)"/>
-  <path d="M56 64h18" stroke="#86efac" stroke-width="3" stroke-linecap="round"/>
-  <text x="88" y="69" fill="#9da7b3" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" letter-spacing="2">FIELD NOTES / 001</text>
-  <text x="54" y="163" fill="#e6edf3" font-family="system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="76" font-weight="700" letter-spacing="-3">Jason Dai</text>
-  <text x="58" y="218" fill="#86efac" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="30" letter-spacing="-1">System &amp; AI Explorer</text>
-  <text x="58" y="305" fill="#67e8f9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="22">&gt;</text>
-  <text x="88" y="305" fill="#9da7b3" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="21">sensing / systems / intelligence</text>
-  <path d="M707 54V307" stroke="#263543" stroke-width="1"/>
-  <ellipse cx="960" cy="183" rx="178" ry="106" transform="rotate(-16 960 183)" fill="none" stroke="#274452" stroke-dasharray="3 9"/>
-  <g fill="none" stroke="url(#signal)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M759 164h16l8-17 12 35 12-29 9 11h19"/>
-    <path d="M846 164h44q18 0 18 18h16"/>
-    <path d="M980 182h17q19 0 19-24v-21h27"/>
-    <path d="M1080 176v66q0 20-20 20h-73" opacity="0.6"/>
-    <path d="M959 212v36q0 14 14 14" opacity="0.6"/>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="400" fill="url(#panel)"/>
+    <rect x="700" width="500" height="400" fill="url(#grid)"/>
+    <ellipse cx="947" cy="191" rx="290" ry="240" fill="url(#aura)"/>
+    <path d="M700 46V354M40 327H1160" stroke="#273144"/>
+    <g class="mono" font-size="13" letter-spacing="2" fill="#93a1b8">
+      <text x="40" y="48">JASON / SYSTEM LOG</text>
+      <text x="982" y="48">EXPLORING</text>
+    </g>
+    <circle class="pulse" cx="963" cy="43" r="4" fill="#78e8dc"/>
+    <g transform="translate(42 75)"><circle r="4" fill="#ff7086"/><circle cx="16" r="4" fill="#eac16c"/><circle cx="32" r="4" fill="#78e8dc"/></g>
+    <text x="40" y="178" fill="#f1f4fc" font-family="system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="82" font-weight="750" letter-spacing="-4">Jason Dai<tspan fill="#78e8dc">.</tspan></text>
+    <text class="mono" x="44" y="230" fill="#b7a9ff" font-size="28" letter-spacing="-1">System &amp; AI Explorer</text>
+    <text class="mono" x="44" y="280" fill="#78e8dc" font-size="22">&gt;</text>
+    <text class="mono" x="82" y="280" fill="#a9b7cd" font-size="21" textLength="404" lengthAdjust="spacingAndGlyphs" clip-path="url(#typed)">sensing / systems / intelligence</text>
+    <path class="cursor" d="M486 256v26" stroke="#78e8dc" stroke-width="2"/>
+    <g fill="none" stroke="url(#signal)">
+      <ellipse cx="947" cy="191" rx="185" ry="82" transform="rotate(-24 947 191)" stroke-width="2"/>
+      <ellipse cx="947" cy="191" rx="155" ry="113" transform="rotate(28 947 191)" stroke-width="1" opacity=".6"/>
+      <circle cx="947" cy="191" r="124" stroke-dasharray="2 10" opacity=".5"/>
+      <circle cx="947" cy="191" r="84" stroke-width="1.5"/>
+      <circle cx="947" cy="191" r="72" stroke-width="7" opacity=".08"/>
+    </g>
+    <circle cx="947" cy="191" r="66" fill="#0b101a" stroke="#313e58"/>
+    <path d="m920 170 21 21-21 21m30 0h24" fill="none" stroke="url(#signal)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <g class="orbit">
+      <circle cx="1071" cy="191" r="5" fill="#78e8dc"/>
+      <circle cx="823" cy="191" r="4" fill="#c2a2ff"/>
+      <path d="M1071 177v-8m0 36v8m-14-22h-8m36 0h8" stroke="#78e8dc" opacity=".6"/>
+    </g>
+    <g class="mono" font-size="11" letter-spacing="2" fill="#93a1b8"><text x="782" y="106">SENSE</text><text x="1070" y="280">LEARN</text><text x="920" y="303">BUILD</text></g>
+    <g class="mono" font-size="14">
+      <text x="44" y="366" fill="#78e8dc">01 / SENSING</text>
+      <text x="276" y="366" fill="#b7a9ff">02 / SYSTEMS</text>
+      <text x="509" y="366" fill="#e0b5ff">03 / AI</text>
+      <text x="811" y="366" fill="#93a1b8" letter-spacing="1">STAY CURIOUS. KEEP BUILDING.</text>
+    </g>
   </g>
-  <circle cx="841" cy="164" r="6" fill="#86efac"/>
-  <rect x="924" y="150" width="56" height="62" rx="12" fill="#0d1117" stroke="#86efac" stroke-width="2"/>
-  <g fill="#86efac"><rect x="937" y="164" width="10" height="10" rx="2"/><rect x="955" y="164" width="10" height="10" rx="2"/><rect x="937" y="182" width="10" height="10" rx="2"/><rect x="955" y="182" width="10" height="10" rx="2"/></g>
-  <circle cx="1080" cy="138" r="37" fill="#0d1117" stroke="#67e8f9" stroke-width="2"/>
-  <g stroke="#67e8f9" stroke-width="1.5"><path d="M1065 128l26-5-8 29-18-24 26-5" fill="none"/><circle cx="1065" cy="128" r="4" fill="#67e8f9"/><circle cx="1091" cy="123" r="4" fill="#67e8f9"/><circle cx="1083" cy="152" r="4" fill="#67e8f9"/></g>
-  <circle cx="980" cy="262" r="8" fill="#0d1117" stroke="#86efac" stroke-width="2"/>
-  <g fill="#9da7b3" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" letter-spacing="2"><text x="792" y="228">SENSE</text><text x="922" y="242">BUILD</text><text x="1050" y="202">LEARN</text></g>
-  <circle cx="1140" cy="76" r="3" fill="#67e8f9" opacity="0.65"/>
-  <circle cx="806" cy="289" r="3" fill="#86efac" opacity="0.65"/>
+  <rect x="1" y="1" width="1198" height="398" rx="24" fill="none" stroke="#273144" stroke-width="2"/>
 </svg>

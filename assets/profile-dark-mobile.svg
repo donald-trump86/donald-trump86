@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="260" viewBox="0 0 640 260" role="img" aria-labelledby="title desc">
+  <title id="title">Jason Dai — System &amp; AI Explorer</title>
+  <desc id="desc">A compact midnight terminal: sensing, systems and intelligence.</desc>
+  <defs>
+    <linearGradient id="panel" x2="1" y2="1"><stop stop-color="#10141e"/><stop offset="1" stop-color="#080b12"/></linearGradient>
+    <linearGradient id="signal"><stop stop-color="#78e8dc"/><stop offset="1" stop-color="#b7a9ff"/></linearGradient>
+    <clipPath id="typed"><rect class="typing" x="64" y="198" width="404" height="32"/></clipPath>
+    <style>
+      .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+      .typing{animation:typing 9s steps(32,end) infinite}
+      .cursor{animation:blink 1.2s steps(2,end) infinite,caret 9s steps(32,end) infinite}
+      @keyframes typing{0%,8%{width:0}48%,92%,100%{width:404px}}
+      @keyframes caret{0%,8%{transform:translateX(-404px)}48%,92%,100%{transform:translateX(0)}}
+      @keyframes blink{50%{opacity:0}}
+      @media(prefers-reduced-motion:reduce){.typing,.cursor{animation:none}.cursor{opacity:0}}
+    </style>
+  </defs>
+  <rect x="1" y="1" width="638" height="258" rx="20" fill="url(#panel)" stroke="#273144" stroke-width="2"/>
+  <g transform="translate(34 32)"><circle r="4" fill="#ff7086"/><circle cx="16" r="4" fill="#eac16c"/><circle cx="32" r="4" fill="#78e8dc"/></g>
+  <g fill="none" stroke="url(#signal)"><circle cx="552" cy="105" r="46" opacity=".4"/><ellipse cx="552" cy="105" rx="63" ry="25" transform="rotate(-30 552 105)" opacity=".65"/><path d="m536 96 9 9-9 9m16 0h12" stroke-width="3" stroke-linecap="round"/></g>
+  <text x="30" y="112" fill="#f1f4fc" font-family="system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="68" font-weight="750" letter-spacing="-3">Jason Dai<tspan fill="#78e8dc">.</tspan></text>
+  <text class="mono" x="34" y="158" fill="#b7a9ff" font-size="26" letter-spacing="-1">System &amp; AI Explorer</text>
+  <path d="M32 181H608" stroke="#273144"/>
+  <text class="mono" x="34" y="222" fill="#78e8dc" font-size="22">&gt;</text>
+  <text class="mono" x="64" y="222" fill="#a9b7cd" font-size="21" textLength="404" lengthAdjust="spacingAndGlyphs" clip-path="url(#typed)">sensing / systems / intelligence</text>
+  <path class="cursor" d="M468 198v26" stroke="#78e8dc" stroke-width="2"/>
+</svg>
