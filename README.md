@@ -106,10 +106,10 @@
 ## 06 / Build log
 
 <p align="center">
-  <a href="https://github.com/donald-trump86?tab=overview"><img src="https://ghchart.rshah.org/22b8a8/donald-trump86" alt="donald-trump86 的 GitHub 年度贡献热力图，点击查看原始贡献记录" width="900"></a>
+  <a href="https://github.com/donald-trump86?tab=overview"><img src="https://ghchart.rshah.org/22b8a8/donald-trump86" alt="donald-trump86 的 GitHub 年度贡献热力图" width="900"></a>
 </p>
 
-<p align="center"><sub>Small commits. Real progress. · 每一次提交，都是探索的足迹。<br>贡献图由第三方服务生成；若暂时无法加载，可点击查看 GitHub 原始记录。</sub></p>
+<p align="center"><sub>Small commits. Real progress. · 每一次提交，都是探索的足迹。</sub></p>
 
 ---
 
@@ -117,5 +117,5 @@
 
 <details>
   <summary>Visual credits</summary>
-  <p>Animated, theme-aware header artwork created for this profile; reduced-motion preferences are respected. Avatar supplied by Jason, resized without changing the artwork. Badges: <a href="https://shields.io/">Shields.io</a>. Contribution chart: <a href="https://github.com/2016rshah/githubchart-api">githubchart-api</a>. Layout inspiration: <a href="https://zhuanlan.zhihu.com/p/454597068">Github 首页美化教程（一）</a>. Technology icons: <a href="https://devicon.dev/">Devicon</a>, served through jsDelivr at v2.17.0. Shell, CachyOS and social icons: <a href="https://simpleicons.org/">Simple Icons</a>. Game icons: user-selected SVG files from <a href="https://www.svgrepo.com/">SVG Repo</a>, used unchanged. Mac symbol: user-selected SVG Repo artwork, recolored for both themes. Brand marks belong to their respective owners.</p>
+  <p>Animated, theme-aware header artwork created for this profile; reduced-motion preferences are respected. Brand marks belong to their respective owners.</p>
 </details>
